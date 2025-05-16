@@ -1,12 +1,16 @@
-# React + Vite
+✅ Project Title: Password Validation System
+🔍 Project Summary:
+This project implements a Password Validation System in JavaScript (or Python/Java depending on preference) that ensures user-entered passwords meet certain security criteria. It validates passwords based on length, use of uppercase and lowercase letters, numbers, and special characters.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The validated system is version-controlled and publicly hosted on GitHub, showcasing skills in coding best practices and collaboration using Git.
 
-Currently, two official plugins are available:
+🔐 Password Validation Criteria:
+Minimum 8 characters
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+At least 1 uppercase letter
 
-## Expanding the ESLint configuration
+At least 1 lowercase letter
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+At least 1 digit
+
+At least 1 special character (!@#$%^&*(), etc.)
